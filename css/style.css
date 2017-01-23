@@ -1,0 +1,67 @@
+body {
+  background-color: #b79cd5;
+}
+
+h1 {
+  font-family: Script;
+  font-size: 90px;
+}
+
+#quote{
+  font-family: Garamond;
+  font-size: 25px;
+}
+
+blockquote h4:first-letter {
+  float: left;
+  margin: 5px 3px 1px 0;
+  font-family: Georgia;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+blockquote {
+  border: 0;
+  position: relative;
+  margin: 0.5em;
+  padding: 0.5em 2em 0.5em 3em;
+}
+
+blockquote:before {
+  content:"\201C";
+  position: absolute;
+  font-size: 6em;
+  line-height: 1;
+  top: 0;
+  left: 0;
+  content: "\201C";
+}
+
+blockquote:after {
+  content:"\201D";
+  position: absolute;
+  float: right;
+  font-size: 6em;
+  line-height: 1;
+  right: 0;
+  bottom: -0.5em;
+}
+
+blockquote footer {
+  padding: 0 2em 0 0;
+  text-align: right;
+  font-size: 20px;
+  font-family: Calibri;
+  font-style: italic;
+}
+
+
+#quoteBox{
+  background-color:  #d3dbc5;
+}
+
+.footer {
+  position: static;
+  margin-top: 50px;
+  bottom: 0px;
+}

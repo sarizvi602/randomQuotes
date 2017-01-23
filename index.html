@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Quote Spot: Random Quote Generator</title>
+<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <h1 class="text-center">Quote Spot</h1>
+</div>
+<div class="container-fluid">
+  <div class="rows">
+    <!--space where quote and author appear -->
+    <div class="col-xs-10" id="quoteBox">
+      <blockquote>
+        <h4 id="quote" class="text-left">Quote</h4>
+        <footer id="author">Author</footer>
+      </blockquote>
+    </div>
+    <div class="col-xs-2" id="btnBox">
+<!-- generate random quote button-->      
+      <button id="newQuoteButton" class="btn btn-primary btn-block btn-lg" type="button"><i class="fa fa-quote-left"></i> New Quote</button>
+<!--tweet the quote button -->      
+      <button id="twitterButton" class="btn btn-info btn-block btn-lg" type="button"><i class="fa fa-twitter fa-md"></i> Tweet Quote</button>
+    </div>
+  </div>
+</div>
+
+<footer class="footer text-center">
+  <div class="container-fluid"> <strong>Written and coded by Syed Rizvi</strong>
+  </div>
+</footer>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
